@@ -1,4 +1,10 @@
+ 学习测试文档，初始建立与vue cli
+
+ 更多项目请移步 www.lfq.cn ，感谢关注！~
+
+
 # vuecli
+
 
 ## Project setup
 ```
