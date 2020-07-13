@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!--<img alt="Vue logo" src="./assets/logo.png">-->
+    <HelloWorld msg="欢迎使用 Vue.js App"/>
+    <zujian zujianmsg="123456789"/>
+    <secondcomponent />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import zujian from './components/zujian.vue'
+import secondcomponent from './components/secondcomponent.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    zujian,
+    secondcomponent
   }
 }
 </script>
