@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <!--<img alt="Vue logo" src="./assets/logo.png">-->
+    <img alt="Vue logo" src="./images/vue.jpg">
     <HelloWorld msg="欢迎使用 Vue.js App"/>
     <zujian zujianmsg="123456789"/>
     <secondcomponent />
